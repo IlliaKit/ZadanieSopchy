@@ -1,0 +1,54 @@
+.container {
+  max-width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.services {
+  width: 80%;
+}
+
+.service {
+  width: 25%;
+}
+
+.proj {
+  width: 25%;
+}
+
+.proj img {
+  height: 20vw;
+}
+
+.work-place{
+  width: 100%;
+}
+
+/* 1000px */
+@media only screen and (max-width: 1000px) {
+  .service {
+    width: 45%;
+  }
+
+  .proj {
+    width: 30%;
+  }
+  .proj img {
+    height: 20vw;
+  }
+}
+
+/* 600px */
+@media only screen and (max-width: 600px) {
+  .service {
+    width: 150%;
+  }
+  .proj {
+    width: 40%;
+  }
+  .proj img {
+    height: 30vw;
+  }
+}
